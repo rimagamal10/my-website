@@ -3,139 +3,113 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>متجري - المنتجات</title>
+  <title>متجري - المتجر</title>
   <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
-  <style>
-    body { font-family: "Cairo", sans-serif; }
-    .product-card { transition: 0.3s; }
-    .product-card:hover { transform: scale(1.05); }
-    footer { background:#222; color:#ddd; text-align:center; padding:20px; }
-  </style>
+  <style>body { font-family: "Cairo", sans-serif; }</style>
 </head>
 <body>
 
-  <!-- الهيدر -->
-<nav class="navbar navbar-expand-lg navbar-dark bg-dark">
-  <div class="container">
-    <a class="navbar-brand" href="index.html">متجري</a>
-    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
-      aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
-      <span class="navbar-toggler-icon"></span>
-    </button>
-    <div class="collapse navbar-collapse" id="navbarNav">
-      <ul class="navbar-nav ms-auto">
-        <li class="nav-item"><a class="nav-link" href="index.html">الرئيسية</a></li>
-        <li class="nav-item"><a class="nav-link" href="shop.html">المتجر</a></li>
-        <li class="nav-item"><a class="nav-link" href="cart.html">عربة التسوق</a></li>
-        <li class="nav-item"><a class="nav-link" href="about.html">من نحن</a></li>
-        <li class="nav-item"><a class="nav-link" href="shipping.html">سياسة الشحن</a></li>
-        <li class="nav-item"><a class="nav-link" href="return.html">سياسة الاسترجاع</a></li>
-      </ul>
-    </div>
-  </div>
-</nav>
-
-  <!-- المنتجات -->
-  <section class="py-5">
+  <!-- Navbar -->
+  <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
     <div class="container">
-      <h2 class="text-center mb-4">منتجاتنا</h2>
-      <div class="row g-4">
-        <!-- المنتج 1 -->
-        <div class="col-md-4">
-          <div class="card product-card">
-            <img src="https://source.unsplash.com/400x300/?watch" class="card-img-top" alt="ساعة">
-            <div class="card-body text-center">
-              <h5 class="card-title">ساعة يد أنيقة</h5>
-              <p class="card-text">350 جنيه</p>
-              <a href="https://wa.me/201000000000" class="btn btn-success">اطلب الآن</a>
-            </div>
-          </div>
-        </div>
-        <!-- المنتج 2 -->
-        <div class="col-md-4">
-          <div class="card product-card">
-            <img src="https://source.unsplash.com/400x300/?shoes" class="card-img-top" alt="حذاء">
-            <div class="card-body text-center">
-              <h5 class="card-title">حذاء رياضي</h5>
-              <p class="card-text">500 جنيه</p>
-              <a href="https://wa.me/201000000000" class="btn btn-success">اطلب الآن</a>
-            </div>
-          </div>
-        </div>
-        <!-- المنتج 3 -->
-        <div class="col-md-4">
-          <div class="card product-card">
-            <img src="https://source.unsplash.com/400x300/?bag" class="card-img-top" alt="شنطة">
-            <div class="card-body text-center">
-              <h5 class="card-title">شنطة جلد</h5>
-              <p class="card-text">450 جنيه</p>
-              <a href="https://wa.me/201000000000" class="btn btn-success">اطلب الآن</a>
-            </div>
-          </div>
-        </div>
-        <!-- المنتج 4 -->
-        <div class="col-md-4">
-          <div class="card product-card">
-            <img src="https://source.unsplash.com/400x300/?tshirt" class="card-img-top" alt="تيشيرت">
-            <div class="card-body text-center">
-              <h5 class="card-title">تيشيرت كاجوال</h5>
-              <p class="card-text">200 جنيه</p>
-              <a href="https://wa.me/201000000000" class="btn btn-success">اطلب الآن</a>
-            </div>
-          </div>
-        </div>
-        <!-- المنتج 5 -->
-        <div class="col-md-4">
-          <div class="card product-card">
-            <img src="https://source.unsplash.com/400x300/?headphones" class="card-img-top" alt="سماعات">
-            <div class="card-body text-center">
-              <h5 class="card-title">سماعات بلوتوث</h5>
-              <p class="card-text">600 جنيه</p>
-              <a href="https://wa.me/201000000000" class="btn btn-success">اطلب الآن</a>
-            </div>
-          </div>
-        </div>
-        <!-- المنتج 6 -->
-        <div class="col-md-4">
-          <div class="card product-card">
-            <img src="https://source.unsplash.com/400x300/?sunglasses" class="card-img-top" alt="نظارة شمس">
-            <div class="card-body text-center">
-              <h5 class="card-title">نظارة شمس</h5>
-              <p class="card-text">250 جنيه</p>
-              <a href="https://wa.me/201157732459" class="btn btn-success">اطلب الآن</a>
-            </div>
+      <a class="navbar-brand" href="index.html">متجري</a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
+        aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarNav">
+        <ul class="navbar-nav ms-auto">
+          <li class="nav-item"><a class="nav-link" href="index.html">الرئيسية</a></li>
+          <li class="nav-item"><a class="nav-link active" href="shop.html">المتجر</a></li>
+          <li class="nav-item"><a class="nav-link" href="cart.html">عربة التسوق</a></li>
+          <li class="nav-item"><a class="nav-link" href="about.html">من نحن</a></li>
+          <li class="nav-item"><a class="nav-link" href="shipping.html">سياسة الشحن</a></li>
+          <li class="nav-item"><a class="nav-link" href="return.html">سياسة الاسترجاع</a></li>
+        </ul>
+      </div>
+    </div>
+  </nav>
+
+  <!-- محتوى المنتجات -->
+  <main class="container py-5">
+    <h2 class="text-center mb-4">منتجاتنا</h2>
+    <div class="row g-4">
+      
+      <!-- منتج 1 -->
+      <div class="col-md-4">
+        <div class="card h-100 shadow">
+          <img src="product1.jpg" class="card-img-top" alt="تيشيرت رجالي">
+          <div class="card-body text-center">
+            <h5 class="card-title">تيشيرت رجالي كاجوال</h5>
+            <p class="card-text">250 جنيه</p>
+            <a href="#" class="btn btn-primary add-to-cart" data-name="تيشيرت رجالي كاجوال" data-price="250">أضف للسلة</a>
           </div>
         </div>
       </div>
-    </div>
-  </section>
 
-  <footer>
-    <p>© 2025 جميع الحقوق محفوظة - متجري</p>
+      <!-- منتج 2 -->
+      <div class="col-md-4">
+        <div class="card h-100 shadow">
+          <img src="product2.jpg" class="card-img-top" alt="شنطة يد">
+          <div class="card-body text-center">
+            <h5 class="card-title">شنطة يد نسائية</h5>
+            <p class="card-text">350 جنيه</p>
+            <a href="#" class="btn btn-primary add-to-cart" data-name="شنطة يد نسائية" data-price="350">أضف للسلة</a>
+          </div>
+        </div>
+      </div>
+
+      <!-- منتج 3 -->
+      <div class="col-md-4">
+        <div class="card h-100 shadow">
+          <img src="product3.jpg" class="card-img-top" alt="سماعات">
+          <div class="card-body text-center">
+            <h5 class="card-title">سماعات بلوتوث</h5>
+            <p class="card-text">450 جنيه</p>
+            <a href="#" class="btn btn-primary add-to-cart" data-name="سماعات بلوتوث" data-price="450">أضف للسلة</a>
+          </div>
+        </div>
+      </div>
+
+    </div>
+  </main>
+
+  <!-- Footer -->
+  <footer class="bg-dark text-light py-4 mt-5 text-center">
+    <p class="mb-2">© 2025 متجري - جميع الحقوق محفوظة</p>
+    <p class="mb-2">
+      <a href="about.html" class="text-light text-decoration-none me-3">من نحن</a>
+      <a href="shipping.html" class="text-light text-decoration-none me-3">سياسة الشحن</a>
+      <a href="return.html" class="text-light text-decoration-none">سياسة الاسترجاع</a>
+    </p>
+    <p class="mb-0">
+      تواصل معنا: 
+      <a href="https://wa.me/201000000000" class="text-success text-decoration-none" target="_blank">واتساب</a> |
+      <a href="mailto:example@email.com" class="text-info text-decoration-none">إيميل</a>
+    </p>
   </footer>
+
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+
+  <!-- كود عربة التسوق -->
+  <script>
+    let cart = JSON.parse(localStorage.getItem("cart")) || [];
+    document.querySelectorAll(".add-to-cart").forEach(button => {
+      button.addEventListener("click", (e) => {
+        e.preventDefault();
+        let name = button.dataset.name;
+        let price = parseInt(button.dataset.price);
+        let product = cart.find(p => p.name === name);
+        if(product){
+          product.quantity +=1;
+        } else {
+          cart.push({name, price, quantity:1});
+        }
+        localStorage.setItem("cart", JSON.stringify(cart));
+        alert("تمت إضافة المنتج إلى العربة ✅");
+      });
+    });
+  </script>
 
 </body>
 </html>
-<a href="#" class="btn btn-primary add-to-cart" 
-   data-name="ساعة يد أنيقة" data-price="350">أضف للسلة</a>
-<script>
-  let cart = JSON.parse(localStorage.getItem("cart")) || [];
-
-  document.querySelectorAll(".add-to-cart").forEach(button => {
-    button.addEventListener("click", (e) => {
-      e.preventDefault();
-      let name = button.dataset.name;
-      let price = parseInt(button.dataset.price);
-      let product = cart.find(p => p.name === name);
-
-      if(product){
-        product.quantity += 1;
-      } else {
-        cart.push({name, price, quantity: 1});
-      }
-
-      localStorage.setItem("cart", JSON.stringify(cart));
-      alert("تمت إضافة المنتج إلى العربة ✅");
-    });
-  });
-</script>
