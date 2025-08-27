@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="ar">
+<head>
+  <meta charset="UTF-8">
+  <title>من نحن</title>
+  <style>
+    body {
+      font-family: Tahoma, Arial, sans-serif;
+      background-color: #fff3e0;
+      text-align: center;
+      padding: 50px;
+    }
+    h1 {
+      color: #d35400;
+    }
+    p {
+      font-size: 18px;
+      color: #555;
+    }
+    a {
+      display: inline-block;
+      margin-top: 20px;
+      padding: 10px 20px;
+      background: #2196f3;
+      color: white;
+      text-decoration: none;
+      border-radius: 8px;
+    }
+    a:hover {
+      background: #0b79d0;
+    }
+  </style>
+</head>
+<body>
+  <h1>صفحة من نحن</h1>
+  <p>إحنا عاملين الموقع ده كتجربة جميلة 👌</p>
+  <a href="index.html">الرجوع للصفحة الرئيسية</a>
+</body>
+</html>
