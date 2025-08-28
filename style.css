@@ -1,67 +1,43 @@
-/* الخطوط والألوان العامة */
+/* style.css */
+
+/* الخط العام */
 body {
   font-family: "Cairo", sans-serif;
-  background-color: #f9f9f9;
+  background-color: #f8f9fa;
+  color: #333;
   line-height: 1.8;
 }
 
-/* navbar */
+/* العناوين */
+h1, h2, h3, h4, h5 {
+  font-weight: bold;
+  color: #222;
+}
+
+/* النافبار */
 .navbar {
   box-shadow: 0 2px 10px rgba(0,0,0,0.1);
 }
-.navbar-brand {
-  font-weight: bold;
-  font-size: 1.3rem;
+
+/* الأزرار */
+.btn-primary {
+  background-color: #0d6efd;
+  border: none;
+  transition: 0.3s;
 }
-.navbar-nav .nav-link {
-  margin-left: 15px;
-  transition: color 0.3s ease;
-}
-.navbar-nav .nav-link:hover {
-  color: #ffc107 !important;
+.btn-primary:hover {
+  background-color: #0b5ed7;
 }
 
-/* header */
-header {
-  position: relative;
-  color: white;
-  text-align: center;
-}
-header .overlay {
-  background: rgba(0, 0, 0, 0.6);
-  height: 100%;
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  align-items: center;
-}
-header h1 {
-  font-size: 2.5rem;
-  font-weight: bold;
-}
-header p {
-  font-size: 1.2rem;
+/* المحتوى */
+main {
+  padding: 40px 0;
 }
 
-/* main */
-main h2 {
-  color: #333;
-  border-bottom: 3px solid #ffc107;
-  display: inline-block;
-  padding-bottom: 5px;
-  margin-bottom: 20px;
-}
-main p {
-  color: #555;
-}
-
-/* footer */
+/* الفوتر */
 footer {
   margin-top: 40px;
-  background-color: #222 !important;
-  color: #bbb;
-  font-size: 0.9rem;
-}
-footer p {
-  margin: 0;
+  background-color: #212529;
+  color: white;
+  padding: 20px 0;
 }
