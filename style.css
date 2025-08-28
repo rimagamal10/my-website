@@ -1,0 +1,80 @@
+/* الخطوط */
+body {
+  font-family: "Cairo", sans-serif;
+  background-color: #f8f9fa;
+  margin: 0;
+  padding: 0;
+  line-height: 1.8;
+  color: #333;
+}
+
+/* الهيدر */
+header {
+  background: linear-gradient(135deg, #007bff, #6610f2);
+  color: white;
+  padding: 50px 20px;
+  text-align: center;
+}
+header h1 {
+  font-size: 2.5rem;
+  margin-bottom: 10px;
+}
+header p {
+  font-size: 1.2rem;
+}
+
+/* الروابط والأزرار */
+a {
+  color: #007bff;
+  text-decoration: none;
+}
+a:hover {
+  color: #0056b3;
+}
+.btn {
+  display: inline-block;
+  padding: 10px 20px;
+  border-radius: 8px;
+  background: #007bff;
+  color: #fff;
+  transition: 0.3s;
+}
+.btn:hover {
+  background: #0056b3;
+  color: #fff;
+}
+
+/* الأقسام */
+section {
+  padding: 60px 20px;
+  max-width: 900px;
+  margin: auto;
+}
+
+/* الفوتر */
+footer {
+  background: #111;
+  color: #aaa;
+  text-align: center;
+  padding: 20px;
+  margin-top: 40px;
+  font-size: 0.9rem;
+}
+
+/* جداول أو قوائم */
+table, ul, ol {
+  margin-top: 20px;
+  width: 100%;
+}
+table {
+  border-collapse: collapse;
+}
+table th, table td {
+  border: 1px solid #ddd;
+  padding: 12px;
+  text-align: center;
+}
+table th {
+  background: #007bff;
+  color: #fff;
+}
